@@ -22,10 +22,11 @@
 				"wayou.vscode-todo-highlight"
 			],
 			"settings": {
-				"editor.fontSize": 32,
-				"terminal.integrated.fontSize": 24,
-				"editor.wordWrap": "on"
-			}
+    "editor.fontSize": 14,                         // Default font size in the editor
+    "terminal.integrated.fontSize": 14,            // Default font size in the integrated terminal
+    "editor.wordWrap": "off"                       // Default word wrap setting (disabled by default)
+}
+
 			
 		}
 		
