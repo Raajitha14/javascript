@@ -1,3 +1,5 @@
+//***********      CONVERSIONS     *********/
+
 // let score=33
 // let score1="33"
 // console.log(typeof(score));
@@ -81,13 +83,72 @@
 
 //------------------------------------------
 
-let someNumber= 33
-let stringNumber= String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);   //so, converted into string
+// let someNumber= 33
+// let stringNumber= String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);   //so, converted into string
 
 
-let someNumber1= 33.3
-let stringNumber1= String(someNumber1);
-console.log(stringNumber1);
-console.log(typeof stringNumber1);   //so, converted into string
+// let someNumber1= 33.3
+// let stringNumber1= String(someNumber1);
+// console.log(stringNumber1);
+// console.log(typeof stringNumber1);   //so, converted into string
+
+
+
+//***************OPERATIONs********* */
+
+// let value=3
+// let negValue= -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2**2);
+// console.log(2**3);
+// console.log(2%3);
+
+
+
+
+
+// let str1="hello"
+// let str2=" rajitha"
+// let str3=str1+str2
+// console.log(str3);
+
+// console.log("1"+2);  //12
+// console.log(1+"2");   //12
+// console.log("1"+ 2 + 2);   //122
+// console.log(1+2+"2");   //32  //1+2=3   3+"2"=32
+// //If string is first-- everything is converted into string
+
+// console.log(3+4*5%3);     //multiply--modulus--addition
+// console.log((3+4)*5%3);     
+
+
+
+// console.log(+true);    //1
+
+// // console.log(true+);   //error
+// console.log(+"");     //0   Boolean("") is also false
+
+
+// let num1,num2,num3
+
+// num1=num2=num3= 2+2
+
+
+let gameCounter=100
+gameCounter++;
+console.log(gameCounter);      //101
+
+let gameCounter1=100
+++gameCounter1;      
+console.log(gameCounter1);    //101
+
+let gameCounter2=100
+console.log(gameCounter2++);
+console.log(gameCounter2);
+console.log(++gameCounter2);
+
