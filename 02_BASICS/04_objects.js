@@ -70,18 +70,37 @@ const users=[    //array of objects
     },
 ]
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  //we get output inside an array
-                             //bcz we can use loop when we want
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));  //o/p in-- array inside array
-
-
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));   //true
-console.log(tinderUser.hasOwnProperty('isLoggedOut'));   //false
+// console.log(Object.keys(tinderUser));  //we get output inside an array
+//                              //bcz we can use loop when we want
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));  //o/p in-- array inside array
 
 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));   //true
+// console.log(tinderUser.hasOwnProperty('isLoggedOut'));   //false
 
 
+const course={
+    coursename:"js course",
+    price: "999",
+    courseInstructor:"varun"
+}
+
+//OBJECT DESTRUCTURING -will be used in react
+const {coursename}=course
+console.log(coursename);
+
+const {courseInstructor:instructor}=course   //can also change the name of variable 
+console.log(instructor);
+
+//the backend data comes in json format
+
+//JSON:
+// {
+//     "name":"rajitha",
+//     "coursename":"js course",
+//     "price":"5000"
+// }
 
