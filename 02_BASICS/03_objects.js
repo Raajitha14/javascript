@@ -2,12 +2,12 @@
 // Object.create--constructor method
 
 
-//object literals
+
 
 const mySym=Symbol("key")
 // console.log(mySym);   //Symbol(key)
 
-
+//object literals
 const JsUser={
     name:"Rajitha",
     "full name":"rajitha k r",       //cannot access using .(dot)
